@@ -14,7 +14,8 @@ const Contact = () => {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-          <div className="group">
+          <div className="group" 
+            onClick={() => window.open("mailto:michael.nuzzolo@gmail.com", '_blank')}>
             <div className="bg-muted/30 rounded-2xl p-8 transition-all duration-300 hover:bg-muted/50">
               <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -22,11 +23,12 @@ const Contact = () => {
                 </svg>
               </div>
               <h3 className="text-lg font-medium text-foreground mb-2">Email</h3>
-              <a href="mailto:michael.nuzzolo@gmail.com" className="text-muted-foreground">michael.nuzzolo@gmail.com</a>
+              <a className="text-muted-foreground">michael.nuzzolo@gmail.com</a>
             </div>
           </div>
 
-          <div className="group">
+          <div className="group"
+            onClick={() => window.open("https://www.linkedin.com/in/michaelnuzzolo/", '_blank')}>
             <div className="bg-muted/30 rounded-2xl p-8 transition-all duration-300 hover:bg-muted/50">
               <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -34,11 +36,12 @@ const Contact = () => {
                 </svg>
               </div>
               <h3 className="text-lg font-medium text-foreground mb-2">LinkedIn</h3>
-              <a href="https://www.linkedin.com/in/michaelnuzzolo/" className="text-muted-foreground">@michaelnuzzolo</a>
+              <a className="text-muted-foreground">@michaelnuzzolo</a>
             </div>
           </div>
 
-          <div className="group">
+          <div className="group"
+            onClick={() => window.open("https://github.com/mnuzzolo", '_blank')}>
             <div className="bg-muted/30 rounded-2xl p-8 transition-all duration-300 hover:bg-muted/50">
               <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -46,7 +49,7 @@ const Contact = () => {
                 </svg>
               </div>
               <h3 className="text-lg font-medium text-foreground mb-2">GitHub</h3>
-              <a href="https://github.com/mnuzzolo" className="text-muted-foreground">@mnuzzolo</a>
+              <a className="text-muted-foreground">@mnuzzolo</a>
             </div>
           </div>
         </div>

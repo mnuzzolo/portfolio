@@ -48,6 +48,7 @@ const Projects = React.forwardRef((props, ref) => {
               key={project.id}
               className="group cursor-pointer"
               style={{ animationDelay: `${index * 100}ms` }}
+              onClick={() => window.open(project.link, '_blank')}
             >
               <div className="bg-card border border-border rounded-2xl overflow-hidden transition-all duration-500 hover:shadow-lg hover:-translate-y-2">
                 <div className="aspect-video overflow-hidden">
