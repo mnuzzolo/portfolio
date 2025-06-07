@@ -10,7 +10,7 @@ const Contact = () => {
         </h2>
         <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
           I'm always interested in new opportunities and exciting projects. 
-          Whether you have a question or just want to say hello, I'd love to hear from you.
+          Whether you have a question or just want to say hey, I'd love to hear from you.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">

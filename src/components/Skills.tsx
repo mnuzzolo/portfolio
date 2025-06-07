@@ -4,15 +4,18 @@ import React from 'react';
 const skills = [
   {
     category: "Frontend",
-    technologies: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Vue.js"]
-  },
-  {
-    category: "Backend",
-    technologies: ["Node.js", "Express", "PostgreSQL", "MongoDB", "GraphQL"]
+    technologies: ["Swift", "SwiftUI", "Kotlin", "UIKit", "Objective C"],
+    strength: [5, 5, 4, 5, 5]
   },
   {
     category: "Tools & Others",
-    technologies: ["Git", "Docker", "AWS", "Figma", "Webpack"]
+    technologies: ["Git", "Xcode", "Android Studio", "Figma", "Jira"],
+    strength: [5, 5, 4, 5, 5]
+  },
+  {
+    category: "Backend",
+    technologies: ["REST", "API Design", "C++", "SQL", "Postman"],
+    strength: [5, 5, 5, 3, 4]
   }
 ];
 
@@ -41,7 +44,7 @@ const Skills = () => {
               </h3>
               
               <div className="space-y-3">
-                {skillGroup.technologies.map((tech) => (
+                {skillGroup.technologies.map((tech, index) => (
                   <div 
                     key={tech}
                     className="flex items-center justify-between py-2 border-b border-border/50 last:border-b-0"
@@ -52,7 +55,7 @@ const Skills = () => {
                         <div 
                           key={i}
                           className={`w-2 h-2 rounded-full ${
-                            i < 4 ? 'bg-primary' : 'bg-muted'
+                            i < skillGroup.strength[index]  ? 'bg-primary' : 'bg-muted'
                           }`}
                         />
                       ))}

@@ -4,27 +4,27 @@ import React from 'react';
 const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "A modern e-commerce solution with React and Node.js",
+    title: "Sonos S2 App",
+    description: "Smart-speaker management and music content aggregate app. 5-star AppStore rating, and over 20M users.",
     image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=600",
-    technologies: ["React", "Node.js", "MongoDB"],
-    link: "#"
+    technologies: ["Swift", "SwiftUI", "Kotlin", "Java"],
+    link: "https://apps.apple.com/us/app/sonos/id1488977981"
   },
   {
     id: 2,
-    title: "Design System",
-    description: "Comprehensive design system for a fintech startup",
+    title: "Github Projects",
+    description: "Swift & SwiftUI sample projects",
     image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&h=600",
-    technologies: ["React", "TypeScript", "Storybook"],
-    link: "#"
+    technologies: ["Swift", "SwiftUI", "iOS"],
+    link: "https://github.com/mnuzzolo"
   },
   {
     id: 3,
-    title: "Mobile App",
-    description: "Cross-platform mobile application for productivity",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&h=600",
-    technologies: ["React Native", "Redux", "Firebase"],
-    link: "#"
+    title: "davvn.com",
+    description: "Portfolio website & shopify storefront for y2k creators",
+    image: "https://davvn.com/cdn/shop/files/2000sphone-smaller-brighter.png?v=1721233483&width=3840",
+    technologies: ["React", "Shopfiy", "CSS"],
+    link: "https://www.davvn.com"
   }
 ];
 
