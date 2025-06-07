@@ -4,8 +4,8 @@ import React from 'react';
 const About = () => {
   return (
     <section className="py-20 lg:py-32 px-6 lg:px-12 bg-muted/30">
-      <div className="max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+      <div className="max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-light tracking-tight text-foreground mb-8">
               About Me
@@ -34,7 +34,7 @@ const About = () => {
           <div className="relative">
             <div className="aspect-square bg-gradient-to-br from-muted to-muted/50 rounded-2xl overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&h=800" 
+                src="https://avatars.githubusercontent.com/u/6494892?v=4" 
                 alt="Developer workspace"
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
               />
