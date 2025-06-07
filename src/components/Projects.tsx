@@ -5,15 +5,15 @@ const projects = [
   {
     id: 1,
     title: "Sonos S2 App",
-    description: "Smart-speaker management and music content aggregate app. 5-star AppStore rating, and over 20M users.",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=600",
+    description: "Smart-speaker management and music content aggregate app. 5-Star App Store rating & 20M+ users.",
+    image: "https://media.sonos.com/images/znqtjj88/production/88129e5a56afe6397c6f11ec8faac2484bc735fb-892x1936.gif?w=640&q=100&fit=clip&auto=format",
     technologies: ["Swift", "SwiftUI", "Kotlin", "Java"],
     link: "https://apps.apple.com/us/app/sonos/id1488977981"
   },
   {
     id: 2,
     title: "Github Projects",
-    description: "Swift & SwiftUI sample projects",
+    description: "Swift & SwiftUI sample apps, portfolio website & other projects",
     image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&h=600",
     technologies: ["Swift", "SwiftUI", "iOS"],
     link: "https://github.com/mnuzzolo"
@@ -21,9 +21,9 @@ const projects = [
   {
     id: 3,
     title: "davvn.com",
-    description: "Portfolio website & shopify storefront for y2k creators",
+    description: "Portfolio website & Shopify storefront for y2k creators \"davvn\"",
     image: "https://davvn.com/cdn/shop/files/2000sphone-smaller-brighter.png?v=1721233483&width=3840",
-    technologies: ["React", "Shopfiy", "CSS"],
+    technologies: ["CSS", "Javascript", "Shopify"],
     link: "https://www.davvn.com"
   }
 ];
