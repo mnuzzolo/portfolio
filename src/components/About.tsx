@@ -13,9 +13,8 @@ const About = () => {
             <div className="space-y-6 text-muted-foreground leading-relaxed">
               <p className="text-lg">
                 I'm a passionate developer with a keen eye for design and a love for creating 
-                digital experiences that are both beautiful and functional. With over 5 years 
-                of experience in web development, I specialize in modern JavaScript frameworks 
-                and contemporary design principles.
+                digital experiences that are both beautiful and functional. With over 12 years 
+                of experience in application development, I specialize in modern iOS and Android frameworks.
               </p>
               <p>
                 My approach combines technical expertise with creative vision, ensuring that 
@@ -24,8 +23,8 @@ const About = () => {
                 hand in hand.
               </p>
               <p>
-                When I'm not coding, you can find me exploring new design trends, 
-                contributing to open-source projects, or enjoying a good cup of coffee 
+                When I'm not coding, you can find me playing guitar, 
+                writing or producing music, or enjoying a good cup of coffee 
                 while sketching out ideas for the next big project.
               </p>
             </div>

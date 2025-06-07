@@ -22,7 +22,7 @@ const Contact = () => {
                 </svg>
               </div>
               <h3 className="text-lg font-medium text-foreground mb-2">Email</h3>
-              <p className="text-muted-foreground">hello@yourname.com</p>
+              <p className="text-muted-foreground">michael.nuzzolo@gmail.com</p>
             </div>
           </div>
 
@@ -34,7 +34,7 @@ const Contact = () => {
                 </svg>
               </div>
               <h3 className="text-lg font-medium text-foreground mb-2">LinkedIn</h3>
-              <p className="text-muted-foreground">@yourprofile</p>
+              <p className="text-muted-foreground">@michaelnuzzolo</p>
             </div>
           </div>
 
@@ -46,7 +46,7 @@ const Contact = () => {
                 </svg>
               </div>
               <h3 className="text-lg font-medium text-foreground mb-2">GitHub</h3>
-              <p className="text-muted-foreground">@yourusername</p>
+              <p className="text-muted-foreground">@mnuzzolo</p>
             </div>
           </div>
         </div>
