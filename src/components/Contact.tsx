@@ -22,7 +22,7 @@ const Contact = () => {
                 </svg>
               </div>
               <h3 className="text-lg font-medium text-foreground mb-2">Email</h3>
-              <p className="text-muted-foreground">michael.nuzzolo@gmail.com</p>
+              <p className="text-muted-foreground">michael.nuzzolo@yourname.com</p>
             </div>
           </div>
 
@@ -52,7 +52,7 @@ const Contact = () => {
         </div>
 
         <button className="group inline-flex items-center px-8 py-4 bg-primary text-primary-foreground rounded-full font-medium transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-          <span>Get In Touch</span>
+          <a href="mailto:michael.nuzzolo@gmail.com">Get In Touch</a>
           <svg 
             className="ml-2 w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" 
             fill="none" 
