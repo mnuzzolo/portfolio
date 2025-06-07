@@ -17,9 +17,9 @@ const Hero = () => {
           }`}
         >
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-light tracking-tight text-foreground mb-6">
-            Creative
+            Michael Nuzzolo
             <span className="block text-4xl md:text-6xl lg:text-7xl text-muted-foreground mt-2">
-              Developer
+              Senior Software Developer
             </span>
           </h1>
           
@@ -29,8 +29,7 @@ const Hero = () => {
             }`}
           >
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-8">
-              Crafting digital experiences through thoughtful design and elegant code. 
-              Specializing in modern web applications that blend aesthetics with functionality.
+              Experienced Senior Software Developer with 12+ years of experience specialized in iOS, Android, Web, and C++ applications. Shipped code to 20M+ users and excelled working within an Agile workflow at Sonos, Avid, and iZotope. Passionate about creating sustainable, quality user experiences. 
             </p>
           </div>
 
