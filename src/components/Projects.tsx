@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { Ref } from 'react';
 
 const projects = [
   {
@@ -13,7 +13,7 @@ const projects = [
   {
     id: 2,
     title: "Github Projects",
-    description: "Swift & SwiftUI sample apps, portfolio website & other projects",
+    description: "Swift & SwiftUI sample apps, portfolio website & other projects - more to come soon!",
     image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&h=600",
     technologies: ["Swift", "SwiftUI", "iOS"],
     link: "https://github.com/mnuzzolo"
@@ -21,16 +21,16 @@ const projects = [
   {
     id: 3,
     title: "davvn.com",
-    description: "Portfolio website & Shopify storefront for y2k creators \"davvn\"",
+    description: "Portfolio website & Shopify storefront for y2k creators \"davvn\". Over 500 sales made via the site.",
     image: "https://davvn.com/cdn/shop/files/2000sphone-smaller-brighter.png?v=1721233483&width=3840",
     technologies: ["CSS", "Javascript", "Shopify"],
     link: "https://www.davvn.com"
   }
 ];
 
-const Projects = () => {
+const Projects = React.forwardRef((props, ref) => {
   return (
-    <section className="py-20 lg:py-32 px-6 lg:px-12">
+    <section ref={ref} className="py-20 lg:py-32 px-6 lg:px-12">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-light tracking-tight text-foreground mb-6">
@@ -96,6 +96,6 @@ const Projects = () => {
       </div>
     </section>
   );
-};
+});
 
 export default Projects;

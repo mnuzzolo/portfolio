@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 
-const Hero = () => {
+const Hero = ({ handleViewWorkClick } : { handleViewWorkClick: () => void }) => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -38,7 +38,7 @@ const Hero = () => {
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
           >
-            <button className="group inline-flex items-center px-8 py-3 text-sm font-medium text-foreground border border-border rounded-full hover:bg-muted transition-all duration-300">
+            <button onClick={handleViewWorkClick} className="group inline-flex items-center px-8 py-3 text-sm font-medium text-foreground border border-border rounded-full hover:bg-muted transition-all duration-300">
               <span>View My Work</span>
               <svg 
                 className="ml-2 w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" 
