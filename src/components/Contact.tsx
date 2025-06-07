@@ -22,7 +22,7 @@ const Contact = () => {
                 </svg>
               </div>
               <h3 className="text-lg font-medium text-foreground mb-2">Email</h3>
-              <p className="text-muted-foreground">michael.nuzzolo@yourname.com</p>
+              <a href="mailto:michael.nuzzolo@gmail.com" className="text-muted-foreground">michael.nuzzolo@gmail.com</a>
             </div>
           </div>
 
@@ -34,7 +34,7 @@ const Contact = () => {
                 </svg>
               </div>
               <h3 className="text-lg font-medium text-foreground mb-2">LinkedIn</h3>
-              <p className="text-muted-foreground">@michaelnuzzolo</p>
+              <a href="https://www.linkedin.com/in/michaelnuzzolo/" className="text-muted-foreground">@michaelnuzzolo</a>
             </div>
           </div>
 
@@ -46,7 +46,7 @@ const Contact = () => {
                 </svg>
               </div>
               <h3 className="text-lg font-medium text-foreground mb-2">GitHub</h3>
-              <p className="text-muted-foreground">@mnuzzolo</p>
+              <a href="https://github.com/mnuzzolo" className="text-muted-foreground">@mnuzzolo</a>
             </div>
           </div>
         </div>
